@@ -79,6 +79,7 @@ src: url("font/SwedenSansBold.otf") format("opentype");
 	padding: 50px;
 	width: 45%;
 	margin: 0 auto;
+	border-radius: 5px;
 }
 
 /*.container-1 div {
