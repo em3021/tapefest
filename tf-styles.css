@@ -2,8 +2,7 @@
 body {
 	margin: 0;
 	background-color: #FCF5EF;
-
-
+	-webkit-font-smoothing: antialiased;
 }
 p {
 	font-weight: normal;
