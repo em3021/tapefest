@@ -1,6 +1,9 @@
 
 $(window).scroll(function() {
-if ($(this).scrollTop() > 1000){  
+
+var posterHeight = $(".poster").outerHeight();
+
+if ($(this).scrollTop() > (posterHeight - 100)){  
     $('.background').addClass("background-blur");
   }
   else {
