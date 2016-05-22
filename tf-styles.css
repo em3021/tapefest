@@ -80,7 +80,8 @@ body.background-blur:before {
 .wrapper {
 	// padding: 0 0 200px 0;
 	position: relative;
-	background:  url("assets/floral-3.png");
+	background:  url("assets/background.jpg");
+	background-size: 100%;
 	z-index: 1;
 }
 
