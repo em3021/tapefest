@@ -140,7 +140,7 @@ body.background-blur:before {
 	text-align: center;
 	font-size: 30px;
 	letter-spacing: 1px;
-	margin: 50px 33%;
+	margin: 50px 33% 0;
 }
 
 .container-1 .contributor {
