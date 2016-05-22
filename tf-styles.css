@@ -1,7 +1,7 @@
 
 body {
 	margin: 0;
-	background: #FCF5EF url("assets/floral-3.png");
+	background: #fcf4ee;
 	-webkit-font-smoothing: antialiased;
 	position: relative;
 }
@@ -11,7 +11,7 @@ p {
 }
 
 h1 {
-	font-family: 'Bree Serif', serif;
+	font-family: 'SwedenSans', serif;
 }
 
 a {
@@ -39,7 +39,7 @@ body.background-blur:before {
 	z-index: -1;
 	background: inherit;
 	background-size: inherit;
-	  
+/*	  
 	  -webkit-filter: blur(2px);
 	  -moz-filter: blur(2px);
 	  -o-filter: blur(2px);
@@ -50,13 +50,12 @@ body.background-blur:before {
 	  -webkit-transition: 3s -webkit-filter linear;
 	  -moz-transition: 3s -moz-filter linear;
 	  -ms-transition: 3s -ms-filter linear;
-	  -o-transition: 3s -o-filter linear;
-
+	  -o-transition: 3s -o-filter linear;*/
 
 }
 
 .content-wrapper {
-	border: 40px solid white;
+	// border: 40px solid white;
 	position: relative;
 }
 
@@ -65,7 +64,9 @@ body.background-blur:before {
 }
 
 .poster img {
-	
+	height: 100%;
+	margin-left: 33%;
+
 }
 .poster .title {
 	width: 40%;
@@ -77,47 +78,48 @@ body.background-blur:before {
 }
 
 .wrapper {
-	padding: 0 0 200px 0;
+	// padding: 0 0 200px 0;
 	position: relative;
+	background:  url("assets/floral-3.png");
 	z-index: 1;
-	// margin-top: 10%;
-	// background: url("assets/background.jpg");
 }
 
 .container-1 {
-	// color: #4A4041;
 	color: #1B0202;
 	background-color: rgba(253, 251, 249, 0.8);
-	padding: 150px 50px;
+	padding: 100px 30px;
 	width: 45%;
-	margin: 0 auto;
+	margin: 150px auto;
+	margin-top: 50px;
 	border-radius: 5px;
 }
 
 .container-1 .sect-1 {
-	width: 80%;
+	width: 90%;
     margin: 0 auto;
     line-height: 1.75;
     text-align: center;
     font-size: 22px;
-	font-family: SwedenSans;
+	font-family: SwedenSans, sans-serif;
 }
 
 .container-1 .sect-2 {
 	font-size: 30px;
 	text-align: center;
-	font-family: SwedenSans;
+	font-family: SwedenSans, sans-serif;
 	margin: 100px 0;
 	font-weight: normal;
+	text-transform: uppercase;
+	letter-spacing: 2px;
 }
 
 .container-1 .sect-2 span {
-	padding: 0 30px;
+	padding: 0 10px;
 }
 
 .container-1 .sect-2 .button {
-	border: 2px solid #E40D4D;
-	color: #E40D4D;
+	border: 2px solid #FB607F;
+	color: #FB607F;
 	border-radius: 5px;
 	padding: 10px;
 	text-transform: uppercase;
@@ -126,15 +128,18 @@ body.background-blur:before {
 }
 
 .container-1 .sect-2 a .button:hover {
-	background-color: #E40D4D;
+	background-color: #FB607F;
 	color: white;
 }
 
 .container-1 h1 {
-	font-family: 'Bree Serif', serif;
+	border-top: 2px solid black;
+	padding: 5px 0;
+	display: inline-block;
 	text-align: center;
 	font-size: 30px;
-	margin: 100px 0 10px 0;
+	letter-spacing: 1px;
+	margin: 50px 33%;
 }
 
 .container-1 .contributor {
@@ -145,19 +150,21 @@ body.background-blur:before {
 
 .container-1 .contributor p {
 	margin-bottom: 5px;
-	font-size: 35px;
-	font-family: SwedenSans;
-	font-weight: bold;
+	font-size: 2.5em;
+    letter-spacing: 3px;
+	font-family: SwedenSans, sans-serif;
+	font-weight: normal;
 	text-transform: uppercase;
 }
 
 .container-1 .contributor p:nth-child(2) {
 	font-size: 16px;
-	color: #887C7E;
+	color: #1B0202;
 	// color: #5F5153;
 	margin: 0;
 	font-weight: normal;
 	text-transform: none;
+	letter-spacing: 1px;
 }
 
 .container-1 .contributor .icon svg {
@@ -166,16 +173,21 @@ body.background-blur:before {
 
 .container-2 {
 	font-size: 25px;
-	font-family: SwedenSans;
+	font-family: SwedenSans, sans-serif;
 	width: 100%;
 	height: 400px;
 	color: #1B0202;
 	padding: 30px 0;
 	// background-color: #CC2B43;
-	background-color: #E40D4D;
+	background-color: #FB607F;
 	max-width: 960px;
 	margin: 0 auto;
 	
+}
+
+.container-2 p {
+	font-weight: bold;
+	letter-spacing: 0;
 }
 
 .container-2 section {
@@ -188,6 +200,10 @@ body.background-blur:before {
 	line-height: 1.5;
 	padding: 0 20px;
 	box-sizing: border-box;
+}
+
+.container-2 section.col-2 p {
+	font-size: 30px;
 }
 
 .container-2 section:nth-child(3) {
@@ -204,10 +220,6 @@ body.background-blur:before {
 	color: #887C7E;
 }
 
-.container-2 p {
-	font-weight: bold;
-	letter-spacing: 0;
-}
 
 .container-2 .logo {
 	margin-bottom: 20px;
@@ -220,7 +232,7 @@ body.background-blur:before {
 
 footer {
 	width: 100%;
-	background-color: #E40D4D;
+	background-color: #FB607F;
 }
 
 /*footer .col-1 {
@@ -353,6 +365,10 @@ body {
 	border-right: none;
 	border-bottom: #9C0532 1px solid;
 	border-width: 30%;
+}
+
+.container-2 section:nth-child(2) {
+	
 }
 
 .container-2 section:nth-child(3) {
