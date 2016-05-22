@@ -1,11 +1,9 @@
 
 body {
 	margin: 0;
-	background: #fcf4ee;
+	background: #FCF5EF url("assets/floral-3.png");
 	-webkit-font-smoothing: antialiased;
 	position: relative;
-	background:  url("assets/background.jpg");
-	background-size: contain;
 }
 p {
 	font-weight: normal;
@@ -57,7 +55,7 @@ body.background-blur:before {
 }
 
 .content-wrapper {
-	// border: 40px solid white;
+	border: 40px solid white;
 	position: relative;
 }
 
@@ -66,9 +64,7 @@ body.background-blur:before {
 }
 
 .poster img {
-	height: 100%;
-	margin-left: 33%;
-
+	
 }
 .poster .title {
 	width: 40%;
@@ -80,18 +76,20 @@ body.background-blur:before {
 }
 
 .wrapper {
-	// padding: 0 0 200px 0;
+	padding: 0 0 200px 0;
 	position: relative;
 	z-index: 1;
+	// margin-top: 10%;
+	// background: url("assets/background.jpg");
 }
 
 .container-1 {
+	// color: #4A4041;
 	color: #1B0202;
 	background-color: rgba(253, 251, 249, 0.8);
-	padding: 100px 30px;
+	padding: 150px 50px;
 	width: 45%;
-	margin: 150px auto;
-	margin-top: 50px;
+	margin: 0 auto;
 	border-radius: 5px;
 }
 
@@ -100,7 +98,7 @@ body.background-blur:before {
     margin: 0 auto;
     line-height: 1.75;
     text-align: center;
-    font-size: 22px;
+    font-size: 20px;
 	font-family: SwedenSans, sans-serif;
 }
 
@@ -134,13 +132,10 @@ body.background-blur:before {
 }
 
 .container-1 h1 {
-	border-top: 2px solid black;
-	padding: 5px 0;
-	display: inline-block;
 	text-align: center;
 	font-size: 30px;
 	letter-spacing: 1px;
-	margin: 50px 33% 0;
+	margin: 100px 0 10px 0;
 }
 
 .container-1 .contributor {
@@ -186,24 +181,16 @@ body.background-blur:before {
 	
 }
 
-.container-2 p {
-	font-weight: bold;
-	letter-spacing: 1;
-}
-
 .container-2 section {
 	width: 33%;
 	height: 400px;
 	text-align: center;
 	float: left;
-	border-right: #1B0202 1px solid;
+	// border-right: #D0596A 1px solid;
+	border-right: #9C0532 1px solid;
 	line-height: 1.5;
 	padding: 0 20px;
 	box-sizing: border-box;
-}
-
-.container-2 section.col-2 p {
-	font-size: 30px;
 }
 
 .container-2 section:nth-child(3) {
@@ -220,6 +207,10 @@ body.background-blur:before {
 	color: #887C7E;
 }
 
+.container-2 p {
+	font-weight: bold;
+	letter-spacing: 0;
+}
 
 .container-2 .logo {
 	margin-bottom: 20px;
@@ -235,6 +226,16 @@ footer {
 	background-color: #FB607F;
 }
 
+/*footer .col-1 {
+	width: 30%;
+	float: left;
+	text-align: center;
+}
+footer .col-2 {
+	width: 70%;
+	float: left;
+
+}*/
 
 
 
@@ -355,10 +356,6 @@ body {
 	border-right: none;
 	border-bottom: #9C0532 1px solid;
 	border-width: 30%;
-}
-
-.container-2 section:nth-child(2) {
-	
 }
 
 .container-2 section:nth-child(3) {
