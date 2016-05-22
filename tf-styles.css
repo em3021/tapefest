@@ -4,8 +4,8 @@ body {
 	background: #fcf4ee;
 	-webkit-font-smoothing: antialiased;
 	position: relative;
-	background:  url("assets/background.jpg");
-	background-size: contain;
+	background:  url("assets/background.jpg") 40px 60px;
+	background-size: 150%;
 }
 p {
 	font-weight: normal;
@@ -41,23 +41,9 @@ body.background-blur:before {
 	z-index: -1;
 	background: inherit;
 	background-size: inherit;
-/*	  
-	  -webkit-filter: blur(2px);
-	  -moz-filter: blur(2px);
-	  -o-filter: blur(2px);
-	  -ms-filter: blur(2px);
-	  filter: blur(2px);
-
-	  transition: 3s filter linear;
-	  -webkit-transition: 3s -webkit-filter linear;
-	  -moz-transition: 3s -moz-filter linear;
-	  -ms-transition: 3s -ms-filter linear;
-	  -o-transition: 3s -o-filter linear;*/
-
 }
 
 .content-wrapper {
-	// border: 40px solid white;
 	position: relative;
 }
 
@@ -67,7 +53,8 @@ body.background-blur:before {
 
 .poster img {
 	height: 100%;
-	margin-left: 33%;
+	margin: 0 auto;
+	display: block;
 
 }
 .poster .title {
@@ -80,7 +67,6 @@ body.background-blur:before {
 }
 
 .wrapper {
-	// padding: 0 0 200px 0;
 	position: relative;
 	z-index: 1;
 }
@@ -88,10 +74,9 @@ body.background-blur:before {
 .container-1 {
 	color: #1B0202;
 	background-color: rgba(253, 251, 249, 0.8);
-	padding: 100px 30px;
+	padding: 30px 30px;
 	width: 45%;
-	margin: 150px auto;
-	margin-top: 50px;
+	margin: 75px auto;
 	border-radius: 5px;
 }
 
@@ -108,7 +93,7 @@ body.background-blur:before {
 	font-size: 30px;
 	text-align: center;
 	font-family: SwedenSans, sans-serif;
-	margin: 100px 0;
+	margin: 50px 0 100px 0;
 	font-weight: normal;
 	text-transform: uppercase;
 	letter-spacing: 2px;
@@ -116,6 +101,9 @@ body.background-blur:before {
 
 .container-1 .sect-2 span {
 	padding: 0 10px;
+}
+.container-1 .sect-2 p {
+	margin-bottom: 50px;
 }
 
 .container-1 .sect-2 .button {
@@ -135,12 +123,13 @@ body.background-blur:before {
 
 .container-1 h1 {
 	border-top: 2px solid black;
-	padding: 5px 0;
-	display: inline-block;
+	border-bottom: 2px solid black;
+	padding-top: 10px;
+	display: block;
 	text-align: center;
 	font-size: 30px;
 	letter-spacing: 1px;
-	margin: 50px 33% 0;
+	margin: 50px auto;
 }
 
 .container-1 .contributor {
@@ -150,7 +139,7 @@ body.background-blur:before {
 }
 
 .container-1 .contributor p {
-	margin-bottom: 5px;
+	margin-bottom: 0;
 	font-size: 2.5em;
     letter-spacing: 3px;
 	font-family: SwedenSans, sans-serif;
@@ -163,6 +152,7 @@ body.background-blur:before {
 	color: #1B0202;
 	// color: #5F5153;
 	margin: 0;
+	margin-bottom: 5px;
 	font-weight: normal;
 	text-transform: none;
 	letter-spacing: 1px;
@@ -210,9 +200,9 @@ body.background-blur:before {
 	border-right: none;
 }
 
-.container-2 section:nth-child(3) .icon {
+.container-2 section:nth-child(3) a {
 	width: 40px;
-	display: inline-block;
+	display: block;
 }
 
 .fa-external-link.fa-2x {
@@ -228,7 +218,6 @@ body.background-blur:before {
 .container-2 .logo a:hover {
 	opacity: .5;
 }
-
 
 footer {
 	width: 100%;
