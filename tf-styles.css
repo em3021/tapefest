@@ -191,12 +191,14 @@ body.background-blur:before {
 }
 
 .container-2 section.col-2 p {
-	font-size: 22px;
+	font-size: 18px;
 	font-weight: normal;
+	line-height: 1.25;
+	text-align: left;
 }
 .container-2 section.col-2 a {
 	font-weight: bold;
-	letter-spacing: 2px;
+	letter-spacing: 1px;
 }
 
 .container-2 section:nth-child(3) {
